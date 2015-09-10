@@ -90,16 +90,22 @@ nav {
 	color: white;
 }
 
+/* SECTION STYLING */
+
+section {
+	margin: 15px 0px 15px 0px;
+}
+
 /* TICKER STYLING */
 
 .ticker {
 	width: 100%;
 	height: 70px;
-	margin: 15px 0px 15px 0px;
 	background-color: #99CCCC;
 	border: 1.5px solid #666666;
 }
 
+/* VIDEO CONTENT STYLING */
 .video {
 	width: 100%;
 	background-color: #CCCCCC;
@@ -108,4 +114,11 @@ nav {
 .video-content {
 	width: 1296px;
 	padding: 20px 70px 20px 70px;
+}
+
+/* FEATURED CONTENT STYLING */
+
+.featured-content {
+	width: 1296px;
+	padding: 40px 70px 40px 70px;
 }
