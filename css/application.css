@@ -1,3 +1,7 @@
+* {
+	/*border: 1px solid red;*/
+}
+
 /* BODY STYLING */
 
 body {
@@ -5,38 +9,60 @@ body {
 }
 
 /* NAVBAR STYLING */
-
 nav {
 	width: 1296px;
 	margin: 0px auto;
 }
 
-nav > ul > li {
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav-logo {
+	float: left;
+}
+
+.nav-logo > img {
+	height: 125px;
+}
+
+.nav-menu {
+	float: right;
+	padding-top: 40px;
+}
+
+.nav-menu > ul > li {
 	display: inline-block;
 	position: relative;
 }
 
-nav > ul > li > a {
+.nav-menu > ul > li:nth-child(-n+3) {
+	border-right: 1px solid #2C999A;
+}
+
+.nav-menu > ul > li > a {
 	color: #2C999A;
 	text-decoration: none;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: 700px;
 	padding: 0px 30px 0px 30px;
 }
 
-nav > ul > li > a:hover {
+.nav-menu > ul > li > a:hover {
 	color: #999999;
 }
 
-nav ul li {
+.nav-menu ul li {
 	list-style: none;
 }
 
-nav ul li:hover > ul {
+.nav-menu ul li:hover > ul {
 	display: block;
 }
 
-nav ul ul {
+.nav-menu ul ul {
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -45,12 +71,12 @@ nav ul ul {
 	padding: 0px;
 }
 
-nav ul ul li {
+.nav-menu ul ul li {
 	border-bottom: 1px solid #666666;
 	display: block;
 }
 
-nav ul ul li a {
+.nav-menu ul ul li a {
 	color: #666666;
 	text-decoration: none;
 	font-size: 16px;
@@ -59,7 +85,7 @@ nav ul ul li a {
 	padding: 10px;
 }
 
-nav ul ul li a:hover {
+.nav-menu ul ul li a:hover {
 	background-color: #2C999A;
 	color: white;
 }
