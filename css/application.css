@@ -99,3 +99,13 @@ nav {
 	background-color: #99CCCC;
 	border: 1.5px solid #666666;
 }
+
+.video {
+	width: 100%;
+	background-color: #CCCCCC;
+}
+
+.video-content {
+	width: 1296px;
+	padding: 20px 70px 20px 70px;
+}
