@@ -1,0 +1,65 @@
+/* BODY STYLING */
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* NAVBAR STYLING */
+
+nav {
+	width: 1296px;
+	margin: 0px auto;
+}
+
+nav > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+nav > ul > li > a {
+	color: #2C999A;
+	text-decoration: none;
+	font-size: 28px;
+	font-weight: 700px;
+	padding: 0px 30px 0px 30px;
+}
+
+nav > ul > li > a:hover {
+	color: #999999;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	border: 1px solid #666666;
+	padding: 0px;
+}
+
+nav ul ul li {
+	border-bottom: 1px solid #666666;
+	display: block;
+}
+
+nav ul ul li a {
+	color: #666666;
+	text-decoration: none;
+	font-size: 16px;
+	font-style: italic;
+	display: block;
+	padding: 10px;
+}
+
+nav ul ul li a:hover {
+	background-color: #2C999A;
+	color: white;
+}
