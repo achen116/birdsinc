@@ -89,3 +89,12 @@ nav {
 	background-color: #2C999A;
 	color: white;
 }
+
+/* TICKER STYLING */
+
+.ticker {
+	width: 100%;
+	height: 70px;
+	background-color: #99CCCC;
+	border: 1.5px solid #666666;
+}
