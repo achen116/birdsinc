@@ -1,7 +1,3 @@
-* {
-	/*border: 1px solid red;*/
-}
-
 /* BODY STYLING */
 
 body {
@@ -119,6 +115,7 @@ section {
 	height: 70px;
 	background-color: #99CCCC;
 	border: 1.5px solid #666666;
+	/*padding-top: 15px;*/
 }
 
 /* VIDEO CONTENT STYLING */
