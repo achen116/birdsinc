@@ -3,7 +3,7 @@
 		ticker();
 		hover();
 
-		$('.bird-img').colorbox({close: "x"});
+		$('.bird-img').colorbox({close: "x", innerWidth: "475px", innerHeight: "415px"});
 	});
 
 	var ticker = function() {
