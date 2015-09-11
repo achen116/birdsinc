@@ -127,23 +127,15 @@ section {
 	background-color: #CCCCCC;
 }
 
-.video-content {
-	width: 1296px;
-	padding: 20px 70px 20px 70px;
-}
-
-/* FEATURED CONTENT STYLING */
-
-.featured-content {
-	width: 1296px;
-	padding: 40px 70px 40px 70px;
-}
-
 /* BIRDS OF THE MONTH STYLING */
 
-.birds-images {
-	width: 1296px;
-	padding: 0px 70px 0px 70px;
+.birds-title {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.birds-title h2 {
+	margin: 0px;
 }
 
 /* FOOTER STYLING */
@@ -165,6 +157,7 @@ footer p {
 
 .footer-nav {
 	padding: 0px;
+	margin-bottom: 35px;
 }
 
 .footer-nav > li {
