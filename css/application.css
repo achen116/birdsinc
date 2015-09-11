@@ -115,7 +115,14 @@ section {
 	height: 70px;
 	background-color: #99CCCC;
 	border: 1.5px solid #666666;
-	padding-top: 15px;
+}
+
+.ticker li {
+	border-left: 1px solid #666666;
+	padding: 10px 25px 25px 25px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 /* VIDEO CONTENT STYLING */
