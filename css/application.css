@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'PT Sans', sans-serif;
-	color: #666666;
+	color: #666;
 }
 
 h1 {
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-menu > ul > li > a:hover {
-	color: #999999;
+	color: #999;
 }
 
 .nav-menu ul li {
@@ -76,20 +76,21 @@ nav {
 .nav-menu ul ul {
 	display: none;
 	position: absolute;
+	z-index: 1;
 	top: 100%;
 	left: 0px;
-	border: 1px solid #666666;
 	padding: 0px;
+	border: 1px solid #666;
+	background-color: #FFF;
 }
 
 .nav-menu ul ul li {
-	background-color: white;
-	border-bottom: 1px solid #666666;
+	border-bottom: 1px solid #666;
 	display: block;
 }
 
 .nav-menu ul ul li a {
-	color: #666666;
+	color: #666;
 	text-decoration: none;
 	font-size: 16px;
 	font-style: italic;
@@ -114,11 +115,11 @@ section {
 	width: 100%;
 	height: 70px;
 	background-color: #99CCCC;
-	border: 1.5px solid #666666;
+	border: 1.5px solid #666;
 }
 
 .ticker li {
-	border-left: 1px solid #666666;
+	border-left: 1px solid #666;
 	padding: 10px 25px 25px 25px;
 	text-align: center;
 	white-space: nowrap;
@@ -128,7 +129,7 @@ section {
 /* VIDEO CONTENT STYLING */
 .video {
 	width: 100%;
-	background-color: #CCCCCC;
+	background-color: #CCC;
 }
 
 /* BIRDS OF THE MONTH STYLING */
@@ -147,7 +148,7 @@ section {
 
 footer {
 	width: 100%;
-	background-color: #CCCCCC;
+	background-color: #CCC;
 }
 
 footer p {
@@ -172,7 +173,7 @@ footer p {
 
 .footer-nav > li > a {
 	text-decoration: none;
-	color: #666666;
+	color: #666;
 	font-size: 20px;
 	padding: 0px 15px 0px 15px;
 }
@@ -182,5 +183,5 @@ footer p {
 }
 
 .footer-nav > li:nth-child(-n+3) {
-	border-right: 1px solid #666666;
+	border-right: 1px solid #666;
 }
