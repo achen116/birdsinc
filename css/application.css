@@ -132,8 +132,33 @@ section {
 	background-color: #CCC;
 }
 
-/* BIRDS OF THE MONTH STYLING */
+@media(max-width:768px){
+	.video iframe {
+		width: 100%;
+	}
+}
 
+@media(max-width:480px){
+	.video iframe {
+		width: 100%;
+	}
+}
+
+/* FEATURED CONTENT STYLING */
+
+@media(max-width:768px){
+	.featured img {
+		width: 100%;
+	}
+}
+
+@media(max-width:480px){
+	.featured img {
+		width: 100%;
+	}
+}
+
+/* BIRDS OF THE MONTH STYLING */
 
 .birds-title {
 	padding-top: 0px;
@@ -142,6 +167,18 @@ section {
 
 .birds-title h2 {
 	margin: 0px;
+}
+
+@media(max-width:768px){
+	.bird-img img {
+		width: 100%;
+	}
+}
+
+@media(max-width:480px){
+	.bird-img img {
+		width: 100%;
+	}
 }
 
 /* FOOTER STYLING */
@@ -184,4 +221,16 @@ footer p {
 
 .footer-nav > li:nth-child(-n+3) {
 	border-right: 1px solid #666;
+}
+
+@media(max-width:768px){
+	footer iframe {
+		width: 100%;
+	}
+}
+
+@media(max-width:480px){
+	footer iframe {
+		width: 100%;
+	}
 }

@@ -21,34 +21,40 @@
 	padding: 25px;
 }
 
-.col-1 {
-	width: 162px;
+.col-1 { width: 162px;  }
+.col-2 { width: 324px;  }
+.col-3 { width: 486px;  }
+.col-4 { width: 648px;  }
+.col-5 { width: 810px;  }
+.col-6 { width: 972px;  }
+.col-7 { width: 1134px; }
+.col-8 { width: 1296px; }
+
+@media(max-width:768px){
+	.container { width: 768px; }
+  .col-1 { width: 25%;  }
+	.col-2 { width: 50%; }
+	.col-3 { width: 33.33%; }
+	.col-4 { width: 100%; }
+	.col-5 { width: 100%; }
+	.col-6 { width: 100%; }
+	.col-7 { width: 100%; }
+	.col-8 { width: 100%; } 
 }
 
-.col-2 {
-	width: 324px;
-}
+@media(max-width:480px){
+	.container { width: 480px; }
 
-.col-3 {
-	width: 486px;
-}
-
-.col-4 {
-	width: 648px;
-}
-
-.col-5 {
-	width: 810px;
-}
-
-.col-6 {
-	width: 972px;
-}
-
-.col-7 {
-	width: 1134px;
-}
-
-.col-8 {
-	width: 1296px;
+	[class*='col-'] {
+		padding: 10px 20px 10px 20px;
+	}
+	
+  .col-1 { width: 25%; }
+	.col-2 { width: 50%; }
+	.col-3 { width: 33.33%; }
+	.col-4 { width: 100%; }
+	.col-5 { width: 100%; }
+	.col-6 { width: 100%; }
+	.col-7 { width: 100%; }
+	.col-8 { width: 100%; } 
 }
