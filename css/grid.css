@@ -1,0 +1,54 @@
+.container *{
+  box-sizing: border-box; 
+}
+
+.container {
+	width: 1296px;
+	margin: 0px auto;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 1px;
+	width: 162px;
+	padding: 25px;
+}
+
+.col-1 {
+	width: 162px;
+}
+
+.col-2 {
+	width: 324px;
+}
+
+.col-3 {
+	width: 486px;
+}
+
+.col-4 {
+	width: 648px;
+}
+
+.col-5 {
+	width: 810px;
+}
+
+.col-6 {
+	width: 972px;
+}
+
+.col-7 {
+	width: 1134px;
+}
+
+.col-8 {
+	width: 1296px;
+}

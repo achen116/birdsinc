@@ -163,26 +163,26 @@ footer p {
 	padding: 40px 70px 40px 70px;
 }
 
-.footer-wrapper > ul {
+.footer-nav {
 	padding: 0px;
 }
 
-.footer-wrapper > ul > li {
+.footer-nav > li {
 	list-style: none;
 	display: inline-block;
 }
 
-.footer-wrapper > ul > li > a {
+.footer-nav > li > a {
 	text-decoration: none;
 	color: #666666;
 	font-size: 20px;
 	padding: 0px 15px 0px 15px;
 }
 
-.footer-wrapper > ul > li:first-child a {
+.footer-nav > li:first-child a {
 	padding-left: 0px;
 }
 
-.footer-wrapper > ul > li:nth-child(-n+3) {
+.footer-nav > li:nth-child(-n+3) {
 	border-right: 1px solid #666666;
 }
