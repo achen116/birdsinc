@@ -8,6 +8,6 @@ $(document).ready(function() {
 	  speed: 100000
 	});
 
+	$('.bird-img').colorbox({close: "x"});
 
-	$('.bird-img').colorbox();
 });
