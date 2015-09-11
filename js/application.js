@@ -7,4 +7,7 @@ $(document).ready(function() {
 	  ticker: true,
 	  speed: 100000
 	});
+
+
+	$('.bird-img').colorbox();
 });
