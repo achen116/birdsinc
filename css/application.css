@@ -188,11 +188,6 @@ footer p {
 	padding: 0px 15px 0px 15px;
 }
 
-.footer-nav > li > a:hover {
-	text-decoration: none;
-	color: #2C999A;
-}
-
 .footer-nav > li:first-child a {
 	padding-left: 0px;
 }
