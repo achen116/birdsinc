@@ -33,18 +33,24 @@ section {
 
 .ticker {
 	width: 100%;
-	height: 70px;
+	height: auto;
 	background-color: #99CCCC;
 	border: 1.5px solid #666;
+	padding-bottom: 10px;
 }
 
-.ticker li {
+.bxslider li {
+	height: 100%;
 	border-left: 1px solid #666;
 	padding: 10px 25px 25px 25px;
 	text-align: center;
-	white-space: nowrap;
-	overflow: hidden;
 }
+
+/*@media(max-width:768px){
+	.video iframe {
+		width: 100%;
+	}
+}*/
 
 /* VIDEO CONTENT STYLING */
 .video {

@@ -12,7 +12,7 @@
 		  maxSlides: 4,
 		  slideWidth: 500,
 		  ticker: true,
-		  speed: 100000
+		  speed: 50000
 		});
 	}
 
