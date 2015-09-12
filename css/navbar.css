@@ -1,4 +1,3 @@
-/* NAVBAR STYLING */
 nav {
 	width: 1296px;
 	margin: 0px auto;
@@ -19,35 +18,35 @@ nav {
 	padding-top: 40px;
 }
 
-.nav-menu > ul > li {
+.main-menu li {
 	display: inline-block;
 	position: relative;
 }
 
-.nav-menu > ul > li:nth-child(-n+3) {
+.main-menu li:nth-child(-n+3) {
 	border-right: 1px solid #2C999A;
 }
 
-.nav-menu > ul > li > a {
+.main-menu a {
 	color: #2C999A;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 0px 35px 0px 35px;
 }
 
-.nav-menu > ul > li > a:hover {
+.main-menu a:hover {
 	color: #999;
 }
 
-.nav-menu ul li {
+.main-menu li {
 	list-style: none;
 }
 
-.nav-menu ul li:hover > ul {
+.main-menu li:hover > ul {
 	display: block;
 }
 
-.nav-menu ul ul {
+.sub-menu {
 	display: none;
 	position: absolute;
 	z-index: 1;
@@ -58,12 +57,12 @@ nav {
 	background-color: #FFF;
 }
 
-.nav-menu ul ul li {
+.sub-menu li {
 	border-bottom: 1px solid #666;
 	display: block;
 }
 
-.nav-menu ul ul li a {
+.sub-menu a {
 	color: #666;
 	text-decoration: none;
 	font-size: 16px;
@@ -73,14 +72,15 @@ nav {
 	width: auto;
 }
 
-.nav-menu ul ul li a:hover {
+.sub-menu a:hover {
 	background-color: #2C999A;
 	color: white;
 }
 
-.show-menu {
+.show-nav {
 	display: none;
 	text-decoration: none;
+	font-size: 22px;
 	color: #666;
 	background: #FFF;
 	border: 1px solid #666;
@@ -88,16 +88,17 @@ nav {
 	padding: 10px 0;
 }
 
-/*Hide checkbox*/
+/* Hide checkbox */
 input[type=checkbox]{
   display: none;
 }
 
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+/* Show menu when checkbox is checked */
+input[type=checkbox]:checked ~ .main-menu{
   display: block;
 }
 
+/* NAVBAR MEDIA QUERY */
 @media(max-width:768px){
 	nav {
 		width: 100%;
@@ -108,42 +109,34 @@ input[type=checkbox]:checked ~ #menu{
 		float: none;
 	}
 
-	/*Make dropdown links appear inline*/
-	.nav-menu ul {
+	.main-menu {
 		display: none;
 		position: static;
 		padding: 0px;
 	}
 
-	/*Create vertical spacing*/
-	.nav-menu li {
-		margin-bottom: 1px;
-	}
-
-	/*Make all menu links full width*/
-	.nav-menu ul li, li a {
+	.main-menu li {
 		width: 100%;
 	}
 
-	.nav-menu > ul > li:nth-child(-n+3) {
+	.main-menu li:nth-child(-n+3) {
 		border-right: none;
 	}
 
-	.nav-menu > ul > li:hover {
-		background-color: #999;
-	}
-
-	.nav-menu > ul > li > a:hover {
+	.main-menu > li > a:hover {
+		background-color: #CCC;
 		color: #FFF;
 	}
 
-	.nav-menu ul ul {
+	.sub-menu {
 		position: inherit;
+		margin: 0px auto;
 		border: none;
+		width: 45%;
+		text-align: left;
 	}
 
-	/*Display 'show menu' link*/
-	.show-menu {
+	.show-nav {
 		display: block;
 	}
 }

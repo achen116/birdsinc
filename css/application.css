@@ -46,12 +46,6 @@ section {
 	text-align: center;
 }
 
-/*@media(max-width:768px){
-	.video iframe {
-		width: 100%;
-	}
-}*/
-
 /* VIDEO CONTENT STYLING */
 .video {
 	width: 100%;
