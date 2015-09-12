@@ -1,0 +1,149 @@
+/* NAVBAR STYLING */
+nav {
+	width: 1296px;
+	margin: 0px auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav-logo {
+	float: left;
+}
+
+.nav-menu {
+	float: right;
+	padding-top: 40px;
+}
+
+.nav-menu > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav-menu > ul > li:nth-child(-n+3) {
+	border-right: 1px solid #2C999A;
+}
+
+.nav-menu > ul > li > a {
+	color: #2C999A;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0px 35px 0px 35px;
+}
+
+.nav-menu > ul > li > a:hover {
+	color: #999;
+}
+
+.nav-menu ul li {
+	list-style: none;
+}
+
+.nav-menu ul li:hover > ul {
+	display: block;
+}
+
+.nav-menu ul ul {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	border: 1px solid #666;
+	background-color: #FFF;
+}
+
+.nav-menu ul ul li {
+	border-bottom: 1px solid #666;
+	display: block;
+}
+
+.nav-menu ul ul li a {
+	color: #666;
+	text-decoration: none;
+	font-size: 16px;
+	font-style: italic;
+	display: block;
+	padding: 10px;
+	width: auto;
+}
+
+.nav-menu ul ul li a:hover {
+	background-color: #2C999A;
+	color: white;
+}
+
+.show-menu {
+	display: none;
+	text-decoration: none;
+	color: #666;
+	background: #FFF;
+	border: 1px solid #666;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+  display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+  display: block;
+}
+
+@media(max-width:768px){
+	nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-logo, .nav-menu {
+		float: none;
+	}
+
+	/*Make dropdown links appear inline*/
+	.nav-menu ul {
+		display: none;
+		position: static;
+		padding: 0px;
+	}
+
+	/*Create vertical spacing*/
+	.nav-menu li {
+		margin-bottom: 1px;
+	}
+
+	/*Make all menu links full width*/
+	.nav-menu ul li, li a {
+		width: 100%;
+	}
+
+	.nav-menu > ul > li:nth-child(-n+3) {
+		border-right: none;
+	}
+
+	.nav-menu > ul > li:hover {
+		background-color: #999;
+	}
+
+	.nav-menu > ul > li > a:hover {
+		color: #FFF;
+	}
+
+	.nav-menu ul ul {
+		position: inherit;
+		border: none;
+	}
+
+	/*Display 'show menu' link*/
+	.show-menu {
+		display: block;
+	}
+}
